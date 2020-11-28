@@ -11,6 +11,7 @@ Included in this build:
 - [Scrollback patches](https://st.suckless.org/patches/scrollback/)
 - [w3m patch](https://st.suckless.org/patches/w3m/)
 - [External pipe patch](https://st.suckless.org/patches/externalpipe/)
+- [font2 patch](https://st.suckless.org/patches/font2/)
 
 Keybinds:
 - Alt+j/k to scroll down/up a line.
@@ -20,4 +21,9 @@ Keybinds:
 - Alt+l to open URLs with dmenu.
 
 Dependencies:
-- dmenu for opening URLs. You may get my dmenu fork [here](https://github.com/nathanielevan/dmenu), or use your own install of dmenu.
+- dmenu for opening URLs. Do note that in the `st-openurl` script, I use several command-line options not available in vanilla dmenu:
+  * `-h` to adjust line height (provided by the [line height patch](https://tools.suckless.org/dmenu/patches/line-height/))
+  * `-nbh` to adjust background colour for highlighted characters (highlight provided by the [highlight patch](https://tools.suckless.org/dmenu/patches/highlight), option `-nbh` is my own)
+- Fonts used:
+  * Inconsolata Nerd Font Mono
+  * JoyPixels (emoji)
