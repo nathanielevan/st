@@ -18,3 +18,6 @@ Keybinds:
 - Alt+=/- to increase/decrease font size. Reset with Alt+0.
 - Ctrl+Shift+c/v to copy/paste from clipboard.
 - Alt+l to open URLs with dmenu.
+
+Dependencies:
+- dmenu for opening URLs. You may get my dmenu fork [here](https://github.com/nathanielevan/dmenu), or use your own install of dmenu.
