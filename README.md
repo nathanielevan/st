@@ -23,7 +23,6 @@ Keybinds:
 Dependencies:
 - dmenu for opening URLs. Do note that in the `st-openurl` script, I use several command-line options not available in vanilla dmenu:
   * `-h` to adjust line height (provided by the [line height patch](https://tools.suckless.org/dmenu/patches/line-height/))
-  * `-nbh` to adjust background colour for highlighted characters (highlight provided by the [highlight patch](https://tools.suckless.org/dmenu/patches/highlight), option `-nbh` is my own)
 - Fonts used:
   * Iosevka Nerd Font Mono
   * JoyPixels (emoji)
