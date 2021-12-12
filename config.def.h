@@ -229,7 +229,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_d,           kscrolldown,    {.i = -1} },
 	{ MODKEY,               XK_k,           kscrollup,      {.i =  1} },
 	{ MODKEY,               XK_j,           kscrolldown,    {.i =  1} },
-	{ MODKEY,               XK_l,           externalpipe,   {.v = openurl} },
+	{ MODKEY,               XK_e,           externalpipe,   {.v = openurl} },
 };
 
 /*
