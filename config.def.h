@@ -136,6 +136,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#0b1726", /* background */
 	"#fff6e6", /* foreground */
+	// "gray90", /* default foreground colour in osc */
+	// "black", /* default background colour in osc */
 };
 
 
