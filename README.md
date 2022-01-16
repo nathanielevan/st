@@ -4,14 +4,15 @@
 
 Included in this build:
 - Colour configuration based on the Nord colour scheme
-- [Swap mouse patch](https://st.suckless.org/patches/swapmouse/)
 - [Box draw patch](https://st.suckless.org/patches/boxdraw/)
 - [Bold is not bright patch](https://st.suckless.org/patches/bold-is-not-bright/)
 - [Blinking cursor patch](https://st.suckless.org/patches/blinking_cursor/)
-- [Scrollback patches](https://st.suckless.org/patches/scrollback/)
-- [w3m patch](https://st.suckless.org/patches/w3m/)
 - [External pipe patch](https://st.suckless.org/patches/externalpipe/)
 - [font2 patch](https://st.suckless.org/patches/font2/)
+- [Scrollback patches](https://st.suckless.org/patches/scrollback/)
+- [Swap mouse patch](https://st.suckless.org/patches/swapmouse/)
+- [Vert center patch](https://st.suckless.org/patches/vertcenter/)
+- [w3m patch](https://st.suckless.org/patches/w3m/)
 
 Keybinds:
 - Alt+j/k to scroll down/up a line.
