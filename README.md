@@ -17,13 +17,13 @@ Included in this build:
 Keybinds:
 - Alt+j/k to scroll down/up a line.
 - Alt+d/u to scroll down/up a screen.
-- Alt+=/- to increase/decrease font size. Reset with Alt+0.
+- Alt+=/- to increase/decrease font size. Reset with Alt+Shift+-.
 - Ctrl+Shift+c/v to copy/paste from clipboard.
-- Alt+l to open URLs with dmenu.
+- Alt+e to open URLs with dmenu.
 
 Dependencies:
 - dmenu for opening URLs. Do note that in the `st-openurl` script, I use several command-line options not available in vanilla dmenu:
   * `-h` to adjust line height (provided by the [line height patch](https://tools.suckless.org/dmenu/patches/line-height/))
 - Fonts used:
-  * Iosevka Nerd Font Mono
-  * JoyPixels (emoji)
+  * FantasqueSansMono Nerd Font Mono
+  * Noto Color Emoji (emoji)
