@@ -1,7 +1,7 @@
 #!/bin/sh
 
 regex='((https?|ftp)(:\/\/)([a-zA-Z0-9]+(\-[a-zA-Z0-9]+)*\.)+[a-zA-Z0-9]+)[a-zA-Z0-9.\/$&%?#=_~\-]*[^ .,!?;\t>"():]'
-url=$(grep -aPo "$regex" | dmenu -i -h 25 -l 7 -p "open url:" -w "$WINDOWID") || exit
+url=$(grep -aPo "$regex" | dmenu -i -h 24 -l 7 -p "open url:" -w "$WINDOWID") || exit
 echo "$url" | while IFS= read -r line ; do
     $BROWSER "$line"
 done
