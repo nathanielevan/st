@@ -171,7 +171,7 @@ static Rune stcursor = 0x2603; /* snowman (U+2603) */
  */
 
 static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int rows = 22;
 
 /*
  * Default colour and shape of the mouse cursor
