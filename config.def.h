@@ -115,7 +115,7 @@ static const char *colorname[] = {
 	"#192e40", /* black   */
 	"#c20f47", /* red     */
 	"#25a37e", /* green   */
-	"#d9886a", /* yellow  */
+	"#e9986d", /* yellow  */
 	"#5d92bf", /* blue    */
 	"#6768bf", /* magenta */
 	"#54bfb8", /* cyan    */
@@ -123,9 +123,9 @@ static const char *colorname[] = {
 
 	/* 8 bright colors */
 	"#284259", /* black   */
-	"#c20f47", /* red     */
-	"#25a37e", /* green   */
-	"#dc9c86", /* yellow  */
+	"#ec1b5d", /* red     */
+	"#33cc9e", /* green   */
+	"#eeae8c", /* yellow  */
 	"#7da7cd", /* blue    */
 	"#8787cc", /* magenta */
 	"#72ccc6", /* cyan    */
@@ -134,7 +134,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#0b1726", /* background */
+	"#0f1926", /* background */
 	"#fff6e6", /* foreground */
 	// "gray90", /* default foreground colour in osc */
 	// "black", /* default background colour in osc */
