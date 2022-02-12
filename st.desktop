@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=st
 Comment=st is a simple terminal implementation for X
+GenericName=Terminal Emulator
 Exec=st
 Icon=utilities-terminal
 Terminal=false

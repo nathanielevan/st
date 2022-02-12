@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=st (tabbed)
 Comment=st is a simple terminal implementation for X
+GenericName=Terminal Emulator
 Exec=tabbed -c -r 2 st -w ''
 Icon=utilities-terminal
 Terminal=false
