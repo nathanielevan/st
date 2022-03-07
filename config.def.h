@@ -112,30 +112,30 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#192e40", /* black   */
-	"#c20f47", /* red     */
-	"#25a37e", /* green   */
-	"#e9986d", /* yellow  */
-	"#5d92bf", /* blue    */
-	"#6768bf", /* magenta */
-	"#54bfb8", /* cyan    */
-	"#fff6e6", /* white   */
+	"#32302f", /* black   */
+	"#cc241d", /* red     */
+	"#98971a", /* green   */
+	"#d79921", /* yellow  */
+	"#458588", /* blue    */
+	"#b16286", /* magenta */
+	"#689d6a", /* cyan    */
+	"#a89984", /* white   */
 
 	/* 8 bright colors */
-	"#284259", /* black   */
-	"#ec1b5d", /* red     */
-	"#33cc9e", /* green   */
-	"#eeae8c", /* yellow  */
-	"#7da7cd", /* blue    */
-	"#8787cc", /* magenta */
-	"#72ccc6", /* cyan    */
-	"#fffef8", /* white   */
+	"#928374", /* black   */
+	"#fb4934", /* red     */
+	"#b8bb26", /* green   */
+	"#fabd2f", /* yellow  */
+	"#83a598", /* blue    */
+	"#d3869b", /* magenta */
+	"#8ec07c", /* cyan    */
+	"#ebdbb2", /* white   */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#0f1926", /* background */
-	"#fff6e6", /* foreground */
+	"#282828", /* background */
+	"#ebdbb2", /* foreground */
 	// "gray90", /* default foreground colour in osc */
 	// "black", /* default background colour in osc */
 };
