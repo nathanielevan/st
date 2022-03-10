@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15:antialias=true";
+static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15.5:antialias=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true",
 };
-static int borderpx = 15;
+static int borderpx = 12;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -31,7 +31,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.1;
+static float chscale = 1.05;
 
 /*
  * word delimiter string
