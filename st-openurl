@@ -1,6 +1,6 @@
 #!/bin/sh
 
-regex='(?:https?|ftp):\/\/[a-zA-Z0-9]+(?:(?:\.?|\-+)[a-zA-Z0-9]+)*(?::[0-9]+)?(?:(?:\/|#)[a-zA-Z0-9.$&%?#=_~\-]*)*[^ .,!?;\t>"():]'
+regex='(?:https?|ftp):\/\/[a-zA-Z0-9]+(?:(?:\.|\-+)[a-zA-Z0-9]+)*(?::[0-9]+)?(?:(?:\/|#)[a-zA-Z0-9.$&%?#=_~\-]*)*[^ .,!?;\t>"():]'
 font='FantasqueSansMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true'
 selbg='#d8a657'
 url=$(grep -aPo "$regex" | dmenu -fn "$font" -sb "$selbg" -i -h 24 -l 7 -p "open url:" -w "$WINDOWID") || exit
