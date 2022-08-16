@@ -5,7 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15.5:antialias=true";
+static char *font = "MesloLGM Nerd Font:size=10:antialias=true";
+// static char *font = "JetBrainsMonoNL Nerd Font:size=10:antialias=true";
+// static char *font = "VictorMono Nerd Font Mono:style=Medium:pixelsize=14:antialias=true";
+// static char *font = "FuraMono Nerd Font Mono:size=10.5:antialias=true";
+// static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15.5:antialias=true";
 // static char *font = "CaskaydiaCove Nerd Font Mono:size=10.5:antialias=true";
 // static char *font = "InconsolataLGC Nerd Font Mono:pixelsize=15.5:antialias=true";
 // static char *font = "Iosevka Nerd Font Mono:size=11.5:antialias=true";
