@@ -4,12 +4,12 @@
 
 Included in this build:
 - Colour configuration based on the Nord colour scheme
-- [Anysize patch](https://st.suckless.org/patches/anysize/)
 - [Box draw patch](https://st.suckless.org/patches/boxdraw/)
 - [Bold is not bright patch](https://st.suckless.org/patches/bold-is-not-bright/)
 - [Blinking cursor patch](https://st.suckless.org/patches/blinking_cursor/)
 - [External pipe patch](https://st.suckless.org/patches/externalpipe/)
 - [font2 patch](https://st.suckless.org/patches/font2/)
+- [Glyph wide support patch](https://st.suckless.org/patches/glyph_wide_support/)
 - [Scrollback patches](https://st.suckless.org/patches/scrollback/)
 - [Swap mouse patch](https://st.suckless.org/patches/swapmouse/)
 - [Vert center patch](https://st.suckless.org/patches/vertcenter/)
