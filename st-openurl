@@ -1,11 +1,15 @@
 #!/bin/sh
 
-font='Iosevka Nerd Font Mono:pixelsize=13:antialias=true:autohint=true'
-# font='MesloLGM Nerd Font Mono:pixelsize=12:antialias=true:autohint=true'
 regex='(?:https?|ftp):\/\/(?:[^\s()>]+|(?:\([^\s()>]*\)))+(?:(?:\([^\s()>]*\))|[^\s.,!?;>"():])'
-# font='FantasqueSansMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true'
-# font='VictorMono Nerd Font Mono:pixelsize=13:antialias=true:autohint=true'
-# font='FuraMono Nerd Font Mono:pixelsize=12.5:antialias=true:autohint=true'
+# font='FantasqueSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true'
+# font='FuraMono Nerd Font:pixelsize=12:antialias=true:autohint=true'
+# font='InconsolataLGC Nerd Font:pixelsize=12:antialias=true:autohint=true'
+# font='Input Nerd Font:pixelsize=12:antialias=true:autohint=true'
+font='Iosevka Nerd Font:pixelsize=13:antialias=true:autohint=true'
+# font='JetBrainsMono Nerd Font:pixelsize=12:antialias=true:autohint=true'
+# font='MesloLGM Nerd Font:pixelsize=12:antialias=true:autohint=true'
+# font='mononoki Nerd Font:pixelsize=13:antialias=true:autohint=true'
+# font='VictorMono Nerd Font:pixelsize=13:antialias=true:autohint=true'
 selbg='#d8a657'
 normalbg='#32302f'
 height=24
