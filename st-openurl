@@ -11,7 +11,7 @@ font='Iosevka Nerd Font:pixelsize=13:antialias=true:autohint=true'
 # font='mononoki Nerd Font:pixelsize=13:antialias=true:autohint=true'
 # font='VictorMono Nerd Font:pixelsize=13:antialias=true:autohint=true'
 selbg='#d8a657'
-normalbg='#32302f'
+normalbg='#282828'
 height=24
 url=$(grep -aPo "$regex" | dmenu -fn "$font" -nb "$normalbg" -sb "$selbg" -i -h "$height" -l 7 -p "open url:" -w "$WINDOWID") || exit
 echo "$url" | while IFS= read -r line ; do
