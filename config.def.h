@@ -223,7 +223,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod1Mask
+#define MODKEY ControlMask
 #define TERMMOD (ControlMask|ShiftMask)
 
 static char *openurl[] = { "/bin/sh", "-c", "st-openurl", "externalpipe", NULL };
@@ -234,18 +234,19 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ MODKEY,               XK_equal,       zoom,           {.f = +1} },
-	{ MODKEY,               XK_minus,       zoom,           {.f = -1} },
-	{ MODKEY|ShiftMask,     XK_underscore,  zoomreset,      {.f =  0} },
+	{ MODKEY|ShiftMask,     XK_plus,        zoom,           {.f = +1} },
+	{ MODKEY|ShiftMask,     XK_underscore,  zoom,           {.f = -1} },
+	{ MODKEY|ShiftMask,     XK_BackSpace,   zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
+	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_u,           kscrollup,      {.i = -1} },
-	{ MODKEY,               XK_d,           kscrolldown,    {.i = -1} },
-	{ MODKEY,               XK_k,           kscrollup,      {.i =  1} },
-	{ MODKEY,               XK_j,           kscrolldown,    {.i =  1} },
-	{ MODKEY,               XK_e,           externalpipe,   {.v = openurl} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ MODKEY|ShiftMask,     XK_B,           kscrollup,      {.i = -1} },
+	{ MODKEY|ShiftMask,     XK_F,           kscrolldown,    {.i = -1} },
+	{ ShiftMask,            XK_Escape,      externalpipe,   {.v = openurl} },
 };
 
 /*
