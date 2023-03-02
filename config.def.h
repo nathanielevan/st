@@ -6,13 +6,13 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15:antialias=true";
-// static char *font = "FuraMono Nerd Font Mono:pixelsize=14:antialias=true";
+// static char *font = "FiraCode Nerd Font Mono:pixelsize=14:antialias=true";
+// static char *font = "Hack Nerd Font Mono:pixelsize=13.5:antialias=true";
 // static char *font = "InconsolataLGC Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "Input Nerd Font Mono:pixelsize=14:antialias=true";
 static char *font = "Iosevka Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "JuliaMono Nerd Font Mono:pixelsize=14:antialias=true";
-// static char *font = "MesloLGM Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "mononoki Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "NotoSansMono Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "VictorMono Nerd Font Mono:pixelsize=15:antialias=true";
