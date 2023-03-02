@@ -4,7 +4,6 @@
 
 Included in this build:
 - Colour configuration based on the Nord colour scheme
-- [Anysize patch](https://st.suckless.org/patches/anysize/)
 - [Box draw patch](https://st.suckless.org/patches/boxdraw/)
 - [Bold is not bright patch](https://st.suckless.org/patches/bold-is-not-bright/)
 - [Blinking cursor patch](https://st.suckless.org/patches/blinking_cursor/)
