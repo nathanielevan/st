@@ -1,6 +1,7 @@
 #!/bin/sh
 
 regex='(?:https?|ftp):\/\/(?:[^\s()>]+|(?:\([^\s()>]*\)))+(?:(?:\([^\s()>]*\))|[^\s.,!?;>"():])'
+# font='DMCAsansserif Nerd Font:pixelsize=13:antialias=true:autohint=true'
 # font='FantasqueSansMono Nerd Font:pixelsize=13:antialias=true:autohint=true'
 # font='FiraCode Nerd Font:pixelsize=12:antialias=true:autohint=true'
 # font='Hack Nerd Font:pixelsize=12:antialias=true:autohint=true'

@@ -5,6 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+// static char *font = "DMCAsansserif Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "FiraCode Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "Hack Nerd Font Mono:pixelsize=13.5:antialias=true";
