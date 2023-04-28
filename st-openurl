@@ -13,10 +13,12 @@ font='Iosevka Nerd Font:pixelsize=13:antialias=true:autohint=true'
 # font='mononoki Nerd Font:pixelsize=13:antialias=true:autohint=true'
 # font='NotoSansMono Nerd Font:pixelsize=12:antialias=true:autohint=true'
 # font='VictorMono Nerd Font:pixelsize=13:antialias=true:autohint=true'
-selbg='#d8a657'
+selbg='#45403d'
+selfg='#d8a657'
 normalbg='#282828'
+normalfg='#d4be98'
 height=21
-url=$(grep -aPo "$regex" | dmenu -fn "$font" -nb "$normalbg" -sb "$selbg" -i -h "$height" -l 7 -p "open url:" -w "$WINDOWID") || exit
+url=$(grep -aPo "$regex" | dmenu -fn "$font" -nb "$normalbg" -nf "$normalfg" -sb "$selbg" -sf "$selfg" -i -h "$height" -l 7 -p "open url:" -w "$WINDOWID") || exit
 echo "$url" | while IFS= read -r line ; do
     $BROWSER "$line"
 done
