@@ -5,18 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-// static char *font = "DMCAsansserif Nerd Font Mono:pixelsize=15:antialias=true";
-// static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=15:antialias=true";
+// static char *font = "DMCASansSerif Nerd Font Mono:pixelsize=15:antialias=true";
+// static char *font = "FantasqueSansM Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "FiraCode Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "Hack Nerd Font Mono:pixelsize=13.5:antialias=true";
-// static char *font = "InconsolataLGC Nerd Font Mono:pixelsize=14:antialias=true";
-// static char *font = "Input Nerd Font Mono:pixelsize=14:antialias=true";
+// static char *font = "Inconsolata LGC Nerd Font Mono:pixelsize=14:antialias=true";
 static char *font = "Iosevka Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=14:antialias=true";
-// static char *font = "JuliaMono Nerd Font Mono:pixelsize=14:antialias=true";
-// static char *font = "mononoki Nerd Font Mono:pixelsize=15:antialias=true";
-// static char *font = "NotoSansMono Nerd Font Mono:pixelsize=14:antialias=true";
-// static char *font = "VictorMono Nerd Font Mono:pixelsize=15:antialias=true";
+// static char *font = "NotoSansM Nerd Font Mono:pixelsize=14:antialias=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true",
@@ -41,7 +37,6 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-// Use cwscale = 0.8 for InconsolataLGC
 static float cwscale = 1.0;
 static float chscale = 1.0;
 /* Character rendering offsets in pixels */
