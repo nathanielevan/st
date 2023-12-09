@@ -219,7 +219,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY ControlMask
+#define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
 static char *openurl[] = { "/bin/sh", "-c", "st-openurl", "externalpipe", NULL };
@@ -240,8 +240,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	{ MODKEY|ShiftMask,     XK_B,           kscrollup,      {.i = -1} },
-	{ MODKEY|ShiftMask,     XK_F,           kscrolldown,    {.i = -1} },
+	{ MODKEY|ShiftMask,     XK_U,           kscrollup,      {.i = -1} },
+	{ MODKEY|ShiftMask,     XK_D,           kscrolldown,    {.i = -1} },
 	{ ShiftMask,            XK_Escape,      externalpipe,   {.v = openurl} },
 };
 
