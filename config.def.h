@@ -10,7 +10,7 @@
 // static char *font = "FiraCode Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "Hack Nerd Font Mono:pixelsize=13.5:antialias=true";
 // static char *font = "Inconsolata LGC Nerd Font Mono:pixelsize=14:antialias=true";
-static char *font = "Iosevka Nerd Font Mono:pixelsize=15:antialias=true";
+static char *font = "IosevkaCustom Nerd Font Mono:pixelsize=15:antialias=true";
 // static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=14:antialias=true";
 // static char *font = "NotoSansM Nerd Font Mono:pixelsize=14:antialias=true";
 /* Spare fonts */

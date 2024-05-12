@@ -6,7 +6,7 @@ regex='(?:https?|ftp):\/\/(?:[^\s()>]+|(?:\([^\s()>]*\)))+(?:(?:\([^\s()>]*\))|[
 # font='FiraCode Nerd Font Propo:pixelsize=12:antialias=true:autohint=true'
 # font='Hack Nerd Font Propo:pixelsize=12:antialias=true:autohint=true'
 # font='Inconsolata LGC Nerd Font Propo:pixelsize=12:antialias=true:autohint=true'
-font='Iosevka Nerd Font Propo:pixelsize=13:antialias=true:autohint=true'
+font='IosevkaCustom Nerd Font Propo:pixelsize=13:antialias=true:autohint=true'
 # font='JetBrainsMono Nerd Font Propo:pixelsize=12:antialias=true:autohint=true'
 # font='NotoSansM Nerd Font Propo:pixelsize=12:antialias=true:autohint=true'
 selbg='#45403d'
