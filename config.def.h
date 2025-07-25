@@ -123,29 +123,29 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#282828", /* black   */
-	"#ea6962", /* red     */
-	"#a9b665", /* green   */
-	"#d8a657", /* yellow  */
-	"#7daea3", /* blue    */
-	"#d3869b", /* magenta */
-	"#89b482", /* cyan    */
-	"#d4be98", /* white   */
+	"#cc241d", /* red     */
+	"#98971a", /* green   */
+	"#d79921", /* yellow  */
+	"#458588", /* blue    */
+	"#b16286", /* magenta */
+	"#689d6a", /* cyan    */
+	"#a89984", /* white   */
 
 	/* 8 bright colors */
-	"#7c6f64", /* black   */
-	"#ef938e", /* red     */
-	"#bbc585", /* green   */
-	"#e1bb7e", /* yellow  */
-	"#9dc2ba", /* blue    */
-	"#e1acbb", /* magenta */
-	"#a7c7a2", /* cyan    */
-	"#e2d3ba", /* white   */
+	"#928374", /* black   */
+	"#fb4934", /* red     */
+	"#b8bb26", /* green   */
+	"#fabd2f", /* yellow  */
+	"#83a598", /* blue    */
+	"#d3869b", /* magenta */
+	"#8ec07c", /* cyan    */
+	"#ebdbb2", /* white   */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#282828", /* background */
-	"#d4be98", /* foreground */
+	"#ebdbb2", /* foreground */
 	// "gray90", /* default foreground colour in osc */
 	// "black", /* default background colour in osc */
 };
