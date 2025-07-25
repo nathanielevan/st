@@ -12,7 +12,7 @@ selbg='#504945'
 selfg='#d79921'
 normalbg='#32302f'
 normalfg='#ebdbb2'
-height=21
+height=19
 url=$(grep -aPo "$regex" | dmenu -fn "$font" -nb "$normalbg" -nf "$normalfg" -sb "$selbg" -sf "$selfg" -i -h "$height" -l 7 -p "open url:" -w "$WINDOWID") || exit
 echo "$url" | while IFS= read -r line ; do
     $BROWSER "$line"
