@@ -16,7 +16,7 @@ static char *font = "Hack:pixelsize=13.5:antialias=true"; /* size=10, pixelsize=
 static char *font2[] = {
 	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true",
 };
-static int borderpx = 13;
+static int borderpx = 12;
 
 /*
  * What program is execed by st depends of these precedence rules:
