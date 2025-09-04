@@ -14,7 +14,7 @@ static char *font = "Hack:pixelsize=13.5:antialias=true"; /* size=10, pixelsize=
 // static char *font = "Noto Sans Mono:pixelsize=14:antialias=true"; /* size=10.5, pixelsize=14 */
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true",
+	"DejaVu Sans Mono:pixelsize=13.5:antialias=true",
 };
 static int borderpx = 12;
 
